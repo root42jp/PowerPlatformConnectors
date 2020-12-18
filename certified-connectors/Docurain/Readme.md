@@ -47,10 +47,8 @@ The Acuity Scheduling sample connector currently supports the following actions:
     `DourainRender` is Sample Flow. `DourainRender` will be explained in the following sections.<br>
     <img width="600px" src="images/Download1-1.png"><br>
   2. Flow in Power Automate<br>
-    `DourainRender`(sample)<br>
-    <br>
-    After calling the API, use `outputs('ActionName')['statusCode']` to check if the status code is 200 to determine if it is success or error.<br>
-    <br>
+    `DourainRender`(sample)<br><br>
+    After calling the API, use `outputs('ActionName')['statusCode']` to check if the status code is 200 to determine if it is success or error.<br><br>
     example: `outputs('Render_a_form')['statusCode']` is equal to `200`<br>
     **If the action name contains a space, replace the space with "_".**<br>
     <img width="600px" src="images/Download1-2.png"><br>
