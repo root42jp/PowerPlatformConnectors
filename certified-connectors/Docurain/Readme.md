@@ -48,6 +48,11 @@ The Acuity Scheduling sample connector currently supports the following actions:
     <img width="600px" src="images/Download1-1.png"><br>
   2. Flow in Power Automate<br>
     `DourainRender`(sample)<br>
+    <br>
+    After calling the API, use `outputs('ActionName')['statusCode']` to check if the status code is 200 to determine if it is success or error.<br>
+    <br>
+    example: `outputs('Render_a_form')['statusCode']` is equal to `200`<br>
+    **If the action name contains a space, replace the space with "_".**<br>
     <img width="600px" src="images/Download1-2.png"><br>
     Temporarily save the Docurain output PDF to OneDrive and respond to PowerApp with the URL of the file. In case of an error, the response of the API is JSON, so it responds with a body.<br>
     <img width="600px" src="images/Download1-3.png"><br>
