@@ -10,7 +10,7 @@
       "email": "cs@docurain.jp"
     }
   },
-  "host": "powerapps.docurain.jp",
+  "host": "powerapps.api.docurain.jp",
   "basePath": "/",
   "schemes": [
     "https"
