@@ -10,7 +10,7 @@ To proceed, you will need the following.
 * Create an access token from Docurain console screen<br>
   The access token is an API key for the custom connector "Docurain".<br>
   Please set an expire and an allowed IP address with this in mind.<br>
-  Since the access will be from MS, the allowed IP address will necessarily be `*. *. *. *`.
+  Since the access will be from MS, the allowed IP address will necessarily be `*.*.*.*`.
 
 ## Downloading & Deploying the Connector
 1. Clone the PowerPlatformConnectors GitHub repository
