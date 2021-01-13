@@ -8,7 +8,9 @@ This API allows you to create your own Document using a template file registered
 To proceed, you will need the following.
 * Create a Account Docurain `https://docurain.jp/signup/`
 * Create an access token from Docurain console screen<br>
-  The access token is an API key for the custom connector "Docurain". Please set an expire and an allowed IP address with this in mind.
+  The access token is an API key for the custom connector "Docurain".<br>
+  Please set an expire and an allowed IP address with this in mind.<br>
+  Since the access will be from MS, the allowed IP address will necessarily be `*. *. *. *`.
 
 ## Downloading & Deploying the Connector
 1. Clone the PowerPlatformConnectors GitHub repository
@@ -20,7 +22,10 @@ To proceed, you will need the following.
 ## Create Connection
 Create a new connection using your API Key.<br>
 The Access token you created in the Docurain console screen will be your API Key.<br>
-`token [access_token]`
+<br>
+API Key：`token [access_token]`<br>
+  -> Example：`token ABCDefghijklmnOPQRSTUvwxyz123456789`
+
 
 ## Supported Actions
 The Acuity Scheduling sample connector currently supports the following actions:
